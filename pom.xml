@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.apache</groupId>
+        <artifactId>apache</artifactId>
+        <version>19</version>
+    </parent>
+
+    <groupId>in.hocg.alioss</groupId>
+    <name>AliOss Spring Boot :: Project</name>
+    <artifactId>alioss-spring-boot-project</artifactId>
+    <packaging>pom</packaging>
+    <version>${revision}</version>
+
+    <properties>
+        <maven_javadoc_version>3.0.1</maven_javadoc_version>
+        <maven_surefire_version>2.19.1</maven_surefire_version>
+        <revision>2.7.1</revision>
+    </properties>
+
+    <modules>
+        <module>alioss-spring-boot-parent</module>
+        <module>alioss-spring-boot-autoconfigure</module>
+        <module>alioss-spring-boot-starter</module>
+        <module>alioss-spring-boot-samples</module>
+    </modules>
+
+</project>

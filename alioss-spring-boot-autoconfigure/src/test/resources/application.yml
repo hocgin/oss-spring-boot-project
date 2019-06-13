@@ -1,0 +1,5 @@
+aliyun:
+  oss:
+    endpoint: http://endpoint.com
+    secret-access: <secret-access/>
+    access-key: <access-key/>
