@@ -12,6 +12,9 @@
 
     <name>AliOss Spring Boot :: Samples</name>
     <artifactId>alioss-spring-boot-samples</artifactId>
+    <properties>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
 
     <dependencies>
         <dependency>
