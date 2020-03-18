@@ -17,3 +17,23 @@ aliyun:
     secret-access: <secret-access/>
     access-key: <access-key/>
 ```
+
+### Maven
+```
+    <!--...-->
+    <dependencies>
+        <dependency>
+            <groupId>in.hocg.alioss</groupId>
+            <artifactId>alioss-spring-boot-starter</artifactId>
+            <version>0.1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>public</id>
+            <name>public</name>
+            <url>https://oss.sonatype.org/content/groups/public/</url>
+        </repository>
+    </repositories>
+```
