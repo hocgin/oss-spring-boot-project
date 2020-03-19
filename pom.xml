@@ -19,7 +19,7 @@
     <properties>
         <maven_javadoc_version>3.0.1</maven_javadoc_version>
         <maven_surefire_version>2.19.1</maven_surefire_version>
-        <revision>0.1.0-SNAPSHOT</revision>
+        <revision>0.1.1-SNAPSHOT</revision>
     </properties>
 
     <modules>
@@ -29,11 +29,4 @@
         <module>alioss-spring-boot-samples</module>
     </modules>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/hocgin/alioss-spring-boot-project</url>
-        </repository>
-    </distributionManagement>
 </project>
