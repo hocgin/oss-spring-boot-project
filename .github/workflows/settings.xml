@@ -2,8 +2,15 @@
     <servers>
         <server>
             <id>github</id>
-            <username>${GITHUB_ACTOR}</username>
-            <password>${GITHUB_TOKEN}</password>
+            <username>${env.GITHUB_ACTOR}</username>
+            <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
+<!--    <servers>-->
+<!--        <server>-->
+<!--            <id>sonatype-snapshots</id>-->
+<!--            <username>hocgin</username>-->
+<!--            <password>${env.SONATYPE_PASSWORD}</password>-->
+<!--        </server>-->
+<!--    </servers>-->
 </settings>
