@@ -15,14 +15,12 @@ jobs:
         with:
           server-id: github
           java-version: 1.8
-          settings-path: ${{ github.WORKSPACE }}
 
       - name: Deploy to Github Package Registry
         run: |
-          mvn -Drevision=0.1.0-SNAPSHOT
-          mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+          mkdir -p ~/.m2
+          echo "<settings><servers><server><id>gh</id><username>$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $1}')</username><password>\${env.GITHUB_TOKEN}</password></server></servers></settings>" > ~/.m2/settings.xml
+          REPO="gh::default::https://maven.pkg.github.com/${GITHUB_REPOSITORY}"
+          mvn deploy -DaltReleaseDeploymentRepository="${REPO}" -DaltSnapshotDeploymentRepository="${REPO}"
         env:
-          GITHUB_ACTOR: hocgin
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONATYPE_ACTOR: hocgin
-          SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
