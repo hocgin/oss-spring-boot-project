@@ -18,8 +18,11 @@ jobs:
           settings-path: ${{ github.WORKSPACE }}
 
       - name: Deploy to Github Package Registry
-        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+        run: |
+          mvn -Drevision=0.1.0-SNAPSHOT
+          mvn deploy -s $GITHUB_WORKSPACE/settings.xml
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_ACTOR: hocgin
-#          SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONATYPE_ACTOR: hocgin
+          SONATYPE_PASSWORD: ${{ secrets.SONATYPE_PASSWORD }}
