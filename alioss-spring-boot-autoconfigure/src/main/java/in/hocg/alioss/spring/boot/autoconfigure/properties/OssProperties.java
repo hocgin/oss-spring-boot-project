@@ -21,4 +21,5 @@ public class AliOssProperties {
     private String accessKey;
     private String secretAccess;
     private String endpoint;
+    private String domain;
 }
