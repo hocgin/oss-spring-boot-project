@@ -3,15 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>alioss-spring-boot-parent</artifactId>
-        <groupId>in.hocg.alioss</groupId>
+        <artifactId>oss-spring-boot-parent</artifactId>
+        <groupId>in.hocg.oss</groupId>
         <version>${revision}</version>
-        <relativePath>../alioss-spring-boot-parent/pom.xml</relativePath>
+        <relativePath>../oss-spring-boot-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>AliOss Spring Boot :: Autoconfigure</name>
-    <artifactId>alioss-spring-boot-autoconfigure</artifactId>
+    <name>Oss :: Spring Boot :: Autoconfigure</name>
+    <artifactId>oss-spring-boot-autoconfigure</artifactId>
 
     <dependencies>
         <dependency>

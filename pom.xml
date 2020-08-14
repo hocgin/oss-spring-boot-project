@@ -10,9 +10,9 @@
         <version>19</version>
     </parent>
 
-    <groupId>in.hocg.alioss</groupId>
-    <name>AliOss Spring Boot :: Project</name>
-    <artifactId>alioss-spring-boot-project</artifactId>
+    <groupId>in.hocg.oss</groupId>
+    <name>Oss :: Spring Boot :: Project</name>
+    <artifactId>oss-spring-boot-project</artifactId>
     <packaging>pom</packaging>
     <version>${revision}</version>
 
@@ -23,10 +23,10 @@
     </properties>
 
     <modules>
-        <module>alioss-spring-boot-parent</module>
-        <module>alioss-spring-boot-autoconfigure</module>
-        <module>alioss-spring-boot-starter</module>
-        <module>alioss-spring-boot-samples</module>
+        <module>oss-spring-boot-parent</module>
+        <module>oss-spring-boot-autoconfigure</module>
+        <module>oss-spring-boot-starter</module>
+        <module>oss-spring-boot-samples</module>
     </modules>
 
     <build>

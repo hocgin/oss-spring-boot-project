@@ -3,15 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>alioss-spring-boot-parent</artifactId>
-        <groupId>in.hocg.alioss</groupId>
+        <artifactId>oss-spring-boot-parent</artifactId>
+        <groupId>in.hocg.oss</groupId>
         <version>${revision}</version>
-        <relativePath>../alioss-spring-boot-parent/pom.xml</relativePath>
+        <relativePath>../oss-spring-boot-parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>AliOss Spring Boot :: Samples</name>
-    <artifactId>alioss-spring-boot-samples</artifactId>
+    <name>Oss :: Spring Boot :: Samples</name>
+    <artifactId>oss-spring-boot-samples</artifactId>
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>
     </properties>
@@ -22,8 +22,8 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>in.hocg.alioss</groupId>
-            <artifactId>alioss-spring-boot-starter</artifactId>
+            <groupId>in.hocg.oss</groupId>
+            <artifactId>oss-spring-boot-starter</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
