@@ -1,4 +1,4 @@
-package in.hocg.alioss.spring.boot.autoconfigure.properties;
+package in.hocg.oss.spring.boot.autoconfigure.properties;
 
 /**
  * Created by hocgin on 2020/8/14

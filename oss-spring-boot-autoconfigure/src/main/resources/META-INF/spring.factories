@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-in.hocg.alioss.spring.boot.autoconfigure.AliOssAutoConfiguration
+in.hocg.oss.spring.boot.autoconfigure.OssAutoConfiguration

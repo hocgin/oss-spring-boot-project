@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>in.hocg.oss</groupId>
-    <name>Oss :: Spring Boot :: Project</name>
+    <name>OSS :: Spring Boot :: Project</name>
     <artifactId>oss-spring-boot-project</artifactId>
     <packaging>pom</packaging>
     <version>${revision}</version>
@@ -19,7 +19,7 @@
     <properties>
         <maven_javadoc_version>3.0.1</maven_javadoc_version>
         <maven_surefire_version>2.19.1</maven_surefire_version>
-        <revision>0.1.1-SNAPSHOT</revision>
+        <revision>1.0.0-SNAPSHOT</revision>
     </properties>
 
     <modules>

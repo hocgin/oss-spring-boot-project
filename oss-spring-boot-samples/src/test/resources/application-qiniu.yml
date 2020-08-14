@@ -1,7 +1,9 @@
 debug: true
 
 oss:
-  endpoint: http://endpoint.com
-  secret-access: <secret-access/>
-  access-key: <access-key/>
-  oss-type:
+  enabled: true
+  domain: http://endpoint.com
+  secretKey: <secret-access/>
+  accessKey: <access-key/>
+  space: <default-space/>
+  type: qiniu

@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
-    <name>Oss :: Spring Boot :: Starter</name>
+    <name>OSS :: Spring Boot :: Starter</name>
     <artifactId>oss-spring-boot-starter</artifactId>
 
     <dependencies>
@@ -21,12 +21,10 @@
             <artifactId>spring-boot-starter</artifactId>
             <optional>true</optional>
         </dependency>
-
         <dependency>
             <groupId>in.hocg.oss</groupId>
             <artifactId>oss-spring-boot-autoconfigure</artifactId>
             <version>${revision}</version>
         </dependency>
-
     </dependencies>
 </project>

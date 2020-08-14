@@ -1,4 +1,4 @@
-package in.hocg.alioss.spring.boot.autoconfigure.impl;
+package in.hocg.oss.spring.boot.autoconfigure.impl;
 
 import cn.hutool.core.util.URLUtil;
 import cn.hutool.json.JSONObject;
@@ -9,8 +9,8 @@ import com.qiniu.storage.Configuration;
 import com.qiniu.storage.Region;
 import com.qiniu.storage.UploadManager;
 import com.qiniu.util.Auth;
-import in.hocg.alioss.spring.boot.autoconfigure.core.OssFileService;
-import in.hocg.alioss.spring.boot.autoconfigure.exception.UploadOssException;
+import in.hocg.oss.spring.boot.autoconfigure.core.OssFileService;
+import in.hocg.oss.spring.boot.autoconfigure.exception.UploadOssException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.InitializingBean;

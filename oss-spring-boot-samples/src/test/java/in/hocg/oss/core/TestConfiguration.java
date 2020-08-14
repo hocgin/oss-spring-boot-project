@@ -1,4 +1,4 @@
-package in.hocg.oss;
+package in.hocg.oss.core;
 
 import in.hocg.oss.spring.boot.samples.Application;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

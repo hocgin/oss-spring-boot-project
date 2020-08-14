@@ -1,4 +1,4 @@
-package in.hocg.alioss.spring.boot.autoconfigure.utils;
+package in.hocg.oss.spring.boot.autoconfigure.utils;
 
 import lombok.NonNull;
 import lombok.experimental.UtilityClass;

@@ -1,4 +1,4 @@
-package in.hocg.alioss.spring.boot.autoconfigure.properties;
+package in.hocg.oss.spring.boot.autoconfigure.properties;
 
 
 import lombok.Data;
@@ -22,5 +22,5 @@ public class OssProperties {
     private String secretKey;
     private String space;
     private String domain;
-    private OssType ossType = OssType.AliYun;
+    private OssType type = OssType.AliYun;
 }

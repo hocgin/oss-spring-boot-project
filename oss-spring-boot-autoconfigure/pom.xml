@@ -10,18 +10,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Oss :: Spring Boot :: Autoconfigure</name>
+    <name>OSS :: Spring Boot :: Autoconfigure</name>
     <artifactId>oss-spring-boot-autoconfigure</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.aliyun.oss</groupId>
@@ -48,12 +43,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
-        </dependency>
-        <!-- Test Dependencies -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 

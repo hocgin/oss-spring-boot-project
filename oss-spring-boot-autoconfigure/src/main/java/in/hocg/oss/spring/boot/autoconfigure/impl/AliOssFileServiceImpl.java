@@ -1,8 +1,8 @@
-package in.hocg.alioss.spring.boot.autoconfigure.impl;
+package in.hocg.oss.spring.boot.autoconfigure.impl;
 
 import cn.hutool.core.util.URLUtil;
 import com.aliyun.oss.OSSClient;
-import in.hocg.alioss.spring.boot.autoconfigure.core.OssFileService;
+import in.hocg.oss.spring.boot.autoconfigure.core.OssFileService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.InitializingBean;

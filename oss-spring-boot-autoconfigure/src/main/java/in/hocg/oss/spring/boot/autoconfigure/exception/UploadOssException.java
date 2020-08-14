@@ -1,4 +1,4 @@
-package in.hocg.alioss.spring.boot.autoconfigure.exception;
+package in.hocg.oss.spring.boot.autoconfigure.exception;
 
 /**
  * Created by hocgin on 2020/8/14

@@ -1,8 +1,8 @@
-package in.hocg.alioss.spring.boot.autoconfigure.core;
+package in.hocg.oss.spring.boot.autoconfigure.core;
 
 import cn.hutool.crypto.digest.DigestUtil;
-import in.hocg.alioss.spring.boot.autoconfigure.exception.UploadOssException;
-import in.hocg.alioss.spring.boot.autoconfigure.utils.FileUtils;
+import in.hocg.oss.spring.boot.autoconfigure.exception.UploadOssException;
+import in.hocg.oss.spring.boot.autoconfigure.utils.FileUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
